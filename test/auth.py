@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-browser = webdriver.Chrome(r"C:\Users\yakp\PycharmProjects\pythonProject\web_driver\chromedriver.exe")
+browser = webdriver.Chrome(r"C:\Users\user\PycharmProjects\pythonProject\web_driver\chromedriver.exe")
 
 def test_start():
     browser.get("https://www.saucedemo.com/")
